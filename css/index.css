@@ -118,7 +118,7 @@ color: var(--brand-color);
 @media screen and (min-width: 1024px) {
     .helper{
         display: flex;
-        flex-direction: row-reverse;
+        columns:row-reverse;
         width: 100vw;
         height: 90vh;
     }
