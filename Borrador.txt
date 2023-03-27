@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+    .helper{
+        display: flex;
+        columns:row-reverse;
+        width: 100vw;
+        height: 90vh;
+    }
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main--button{
+    display: block;
+    width: 400px;
+    margin: 10px 0;
+}
+
+.main--background .helper--content{
+    width: 50%;
+    height: 100%;
+}
+h1.titles--title{
+    font-size: 4rem;
+}
+    
+.footer{
+    height: 10vh;
+}
